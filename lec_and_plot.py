@@ -3,7 +3,7 @@ sys.path.append('../Finitas_tes')
 import matplotlib.pyplot as plt
 import numpy as np
 from pp import read_dotDatafile 
-data=np.array(read_dotDatafile("./herramientas/derivadas.dat"))
+data=np.array(read_dotDatafile("./herramientas/wave1D.dat"))
 
 
 print(data[:,0].shape)
